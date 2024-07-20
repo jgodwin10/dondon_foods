@@ -41,41 +41,60 @@ const NAFDAC = () => {
         <p className="font-semibold text-[18px] md:text-[22px] py-4">
           Benefits of NAFDAC approval
         </p>
-        <div className="md:text-[20px] list text-[15px]">
+        <div className="md:text-[18px] list text-[14px]">
           <li>
-            <span className="font-bold">Safety Assurance:</span> NAFDAC approval
-            ensures that our product is safe for consumption and use
+            <span className="font-bold md:text-[20px] text-[16px]">
+              Safety Assurance:
+            </span>{" "}
+            NAFDAC approval ensures that our product is safe for consumption and
+            use
           </li>
           <li>
-            <span className="font-bold">Quality Guarantee:</span> Our product
-            has been tested and verified to meet international quality
-            standards.
+            <span className="font-bold md:text-[20px] text-[16px]">
+              Quality Guarantee:
+            </span>{" "}
+            Our product has been tested and verified to meet international
+            quality standards.
           </li>
           <li>
-            <span className="font-bold">Efficacy Confirmation: </span>NAFDAC
-            approval confirms that our product delivers on its promised
+            <span className="font-bold md:text-[20px] text-[16px]">
+              Efficacy Confirmation:{" "}
+            </span>
+            NAFDAC approval confirms that our product delivers on its promised
             benefits.
           </li>
           <li>
-            <span className="font-bold">Regulatory Compliance:</span> We have
-            demonstrated compliance with all relevant regulations and
+            <span className="font-bold md:text-[20px] text-[16px]">
+              Regulatory Compliance:
+            </span>{" "}
+            We have demonstrated compliance with all relevant regulations and
             guidelines.
           </li>
           <li>
-            <span className="font-bold">Trust and Credibility:</span> NAFDAC
-            approval enhances our reputation and builds trust with our
+            <span className="font-bold md:text-[20px] text-[16px]">
+              Trust and Credibility:
+            </span>{" "}
+            NAFDAC approval enhances our reputation and builds trust with our
             customers.
           </li>
         </div>
-
-        <p className="py-5">Upgrade Your Health with DON-DON SOYA BEANS</p>
-        <p className="lg:w-[70%] text-[22px] text-center pb-8 mx-auto">
-          Experience the incredible benefits of DON-DON SOYA BEANS for yourself.
-          Try it today and discover a healthier, happier you
+        <p className="font-semibold pt-10 text-[20px]">
+          Why choose NAFDAC-approved DON-DON SOYA BEANS?
         </p>
-        <button className="uppercase hover:scale-[1.1] shadow-2xl duration-500 bg-black py-[12px] px-[16px] w-[205px] rounded-[99px] font-semibold text-white ">
-          Learn More
-        </button>
+        <p className="text-[#eee] text-center mx-auto py-4">
+          By choosing our NAFDAC-approved product, you can have confidence in
+          the safety, quality, and effectiveness of our DON-DON SOYA BEANS. You
+          can trust that our product has undergone rigorous testing and
+          evaluation to ensure it meets the highest standards. With NAFDAC
+          approval, you can enjoy the benefits of our product with peace of
+          mind.
+        </p>
+
+        <p className="text-[22px] text-center pt-8 pb-8 mx-auto">
+          Join the thousands of satisfied customers who trust our
+          NAFDAC-approved DON-DON SOYA BEANS. Try it today and experience the
+          difference for yourself!* products for our customers.
+        </p>
       </div>
     </div>
   );

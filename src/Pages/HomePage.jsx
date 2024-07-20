@@ -6,6 +6,7 @@ import Promo from "../Components/Promo";
 import Vendor from "../Components/Vendor";
 import Quality from "../Components/Quality";
 import NAFDAC from "../Components/NAFDAC";
+import Payment from "../Components/Payment";
 
 const HomePage = () => {
   return (
@@ -17,6 +18,7 @@ const HomePage = () => {
       <Vendor />
       <Quality />
       <NAFDAC />
+      <Payment />
     </div>
   );
 };
