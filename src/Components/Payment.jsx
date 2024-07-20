@@ -5,7 +5,7 @@ import Bank from "../../public/bank.png";
 
 const Payment = () => {
   return (
-    <div className="flex flex-col items-center px-8 gap-8 py-10">
+    <div id="payment" className="flex flex-col items-center px-8 gap-8 py-10">
       <button className="uppercase hover:scale-[1.1] shadow-2xl duration-500 bg-black py-[12px] px-[16px] w-[205px] rounded-[99px] font-semibold text-white ">
         Make Payment
       </button>

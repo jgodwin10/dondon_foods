@@ -4,7 +4,7 @@ import Boy from "../../public/Boy.jpg";
 
 const Hero = () => {
   return (
-    <div className="bg-[#fab919] mt-5 w-full">
+    <div id="home" className="bg-[#fab919] mt-5 w-full">
       <div className="lg:max-w-[1300px] md:max-w-[769px] text-center grid lg:grid-cols-2 py-16 px-6 md:px-8 mx-auto">
         <div className="flex-col lg:items-start items-center gap-10">
           <div className="w-full md:pl-[50px] pb-10 md:pb-28">

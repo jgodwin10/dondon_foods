@@ -3,7 +3,7 @@ import Intro from "../../public/Intro.jpg";
 
 const Introduction = () => {
   return (
-    <div className="bg-[#bc1823] pb-16 ">
+    <div id="intro" className="bg-[#bc1823] pb-16 ">
       <div className="max-w-[1300px] py-16 grid lg:grid-cols-2 mx-auto">
         <img
           className="md:max-w-[700px] lg:max-w-full px-8 md:px-0 mx-auto hero rounded-lg"

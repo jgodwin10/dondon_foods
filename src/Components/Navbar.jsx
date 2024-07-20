@@ -8,13 +8,27 @@ const Navbar = () => {
     <>
       <div className="bg-[#bc1823] z-[9999] fixed top-0 left-0 flex justify-end px-6 items-center w-full h-[50px]">
         <ul className="flex-1 hidden md:flex justify-end text-white gap-8 md:text-[15px]  font-semibold items-center">
-          <li>Home</li>
-          <li>Introduction</li>
-          <li>Promo</li>
-          <li>Vendor Page</li>
-          <li>Quality Assurance</li>
-          <li>NAFDAC Approved</li>
-          <li>Payment Link</li>
+          <li>
+            <a href="#home">Home</a>
+          </li>
+          <li>
+            <a href="#intro">Introduction</a>
+          </li>
+          <li>
+            <a href="#promo">Promo</a>
+          </li>
+          <li>
+            <a href="#vendor">Vendor Page</a>
+          </li>
+          <li>
+            <a href="#quality">Quality Assurance</a>
+          </li>
+          <li>
+            <a href="#nafdac">NAFDAC Approval</a>
+          </li>
+          <li>
+            <a href="#payment">Payment</a>
+          </li>
           <li>Reach Us</li>
         </ul>
         <HiOutlineMenuAlt3
@@ -33,14 +47,28 @@ const Navbar = () => {
             className={`size-8 ${!nav && "rotate-x-[360deg]"} text-white m-3`}
           />
           <ul className="p-6 text-white space-y-3 h-screen md:text-[15px]  font-semibold ">
-            <li>Home</li>
-            <li>Introduction</li>
-            <li>Promo</li>
-            <li>Vendor Page</li>
-            <li>Quality Assurance</li>
-            <li>NAFDAC Approved</li>
-            <li>Payment Link</li>
-            <li>Reach Us</li>
+            <li onClick={() => setNav(false)}>
+              <a href="#home">Home</a>
+            </li>
+            <li onClick={() => setNav(false)}>
+              <a href="#intro">Introduction</a>
+            </li>
+            <li onClick={() => setNav(false)}>
+              <a href="#promo">Promo</a>
+            </li>
+            <li onClick={() => setNav(false)}>
+              <a href="#vendor">Vendor Page</a>
+            </li>
+            <li onClick={() => setNav(false)}>
+              <a href="#quality">Quality Assurance</a>
+            </li>
+            <li onClick={() => setNav(false)}>
+              <a href="#nafdac">NAFDAC Approval</a>
+            </li>
+            <li onClick={() => setNav(false)}>
+              <a href="#payment">Payment</a>
+            </li>
+            <li onClick={() => setNav(false)}>Reach Us</li>
           </ul>
         </div>
       </div>
