@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  scroll-behavior: smooth;
+}
+
+li {
+  cursor: pointer;
+}
+
+h1,
+h2 {
+  font-family: YAFdJnPX3ZE-0;
+  text-align: center;
+  line-height: 1.0199996em;
+}
+
+.hero {
+  animation: change 3s linear;
+}
+
+h3 {
+  font-family: YAFdJvl8raw-0;
+}
+
+.para {
+  font-family: YAFdJnPX3ZE-0;
+}
+
+.promo li {
+  font-size: 20px;
+}
+
+.promo p,
+.promo li {
+  font-family: YAFcfkb7jcU-0;
+}
+
+@keyframes change {
+  0% {
+    transform: translate(-80px, 0px);
+    animation-timing-function: cubic-bezier(0.4, 0.8, 0.74, 1);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+
+.image {
+  animation: image 3s linear;
+}
+
+@keyframes image {
+  0% {
+    transform: scale(0);
+    animation-timing-function: cubic-bezier(0.52, 2.1, 0.43, 1.22);
+  }
+  35% {
+    transform: scale(0.937);
+    animation-timing-function: cubic-bezier(0.37, -0.25, 0.07, 2.15);
+  }
+  77% {
+    transform: scale(0.995);
+    animation-timing-function: cubic-bezier(0.28, -0.03, 0.48, 1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
