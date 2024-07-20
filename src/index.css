@@ -1,41 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 body {
   scroll-behavior: smooth;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 li {
   cursor: pointer;
 }
 
-h1,
-h2 {
-  font-family: YAFdJnPX3ZE-0;
+h1 {
+  font-family: "Dancing Script", cursive;
   text-align: center;
   line-height: 1.0199996em;
 }
 
+.list li {
+  list-style: decimal;
+  padding-bottom: 5px;
+}
+
 .hero {
   animation: change 3s linear;
-}
-
-h3 {
-  font-family: YAFdJvl8raw-0;
-}
-
-.para {
-  font-family: YAFdJnPX3ZE-0;
-}
-
-.promo li {
-  font-size: 20px;
-}
-
-.promo p,
-.promo li {
-  font-family: YAFcfkb7jcU-0;
 }
 
 @keyframes change {

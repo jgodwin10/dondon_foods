@@ -4,6 +4,8 @@ import Hero from "../Components/Hero";
 import Introduction from "../Components/Introduction";
 import Promo from "../Components/Promo";
 import Vendor from "../Components/Vendor";
+import Quality from "../Components/Quality";
+import NAFDAC from "../Components/NAFDAC";
 
 const HomePage = () => {
   return (
@@ -13,6 +15,8 @@ const HomePage = () => {
       <Introduction />
       <Promo />
       <Vendor />
+      <Quality />
+      <NAFDAC />
     </div>
   );
 };

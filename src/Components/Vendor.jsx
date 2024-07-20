@@ -3,14 +3,14 @@ import Intro from "../../public/Intro.jpg";
 
 const Vendor = () => {
   return (
-    <div className="bg-[#bc1823] pb-16 px-8">
+    <div className="bg-[#bc1823] pb-16 px-6 md:px-8">
       <div className="max-w-[1300px] py-16 grid lg:grid-cols-2 mx-auto">
         <img
-          className="md:max-w-[700px] lg:max-w-full px-8 md:px-0 mx-auto hero rounded-lg"
+          className="md:max-w-[700px] lg:max-w-full px-6 md:px-0 mx-auto hero rounded-lg"
           src={Intro}
           alt=""
         />
-        <div className="flex flex-col pt-10 px-16 pb-6 text-center text-white justify-end items-center">
+        <div className="flex flex-col pt-10 md:px-16 pb-6 text-center text-white justify-end items-center">
           <h2 className="md:text-[66px] text-[30px] pb-10 font-semibold">
             Distributors ​needed Nationwide
           </h2>
@@ -47,7 +47,7 @@ const Vendor = () => {
         <p>- Tap into a vast and growing market demand</p>
         <p>- Make a real difference in people's lives!</p>
 
-        <p className="font-semibold text-[18px] md:text-[22px] py-4">
+        <p className="font-semibold text-[18px] md:text-[22px] pt-6 pb-3">
           If you're:
         </p>
 
@@ -67,7 +67,7 @@ const Vendor = () => {
           Contact us to learn more and take the first step towards a rewarding
           partnership!
         </p>
-        <button className="uppercase hover:scale-[1.1] duration-500 bg-black py-[12px] px-[16px] w-[205px] rounded-[99px] font-semibold text-white ">
+        <button className="uppercase hover:scale-[1.1] duration-500 shadow-2xl bg-black py-[12px] px-[16px] w-[205px] rounded-[99px] font-semibold text-white ">
           Learn More
         </button>
       </div>

@@ -3,14 +3,14 @@ import Intro from "../../public/Intro.jpg";
 
 const Introduction = () => {
   return (
-    <div className="bg-[#bc1823] pb-16 px-8">
+    <div className="bg-[#bc1823] pb-16 ">
       <div className="max-w-[1300px] py-16 grid lg:grid-cols-2 mx-auto">
         <img
           className="md:max-w-[700px] lg:max-w-full px-8 md:px-0 mx-auto hero rounded-lg"
           src={Intro}
           alt=""
         />
-        <div className="flex flex-col pt-10 px-16 pb-6 text-center text-white justify-end items-center">
+        <div className="flex flex-col pt-10 px-6 md:px-16 pb-6 text-center text-white justify-end items-center">
           <h2 className="md:text-[66px] text-[30px] pb-10 font-semibold">
             Introducing
           </h2>
@@ -24,7 +24,7 @@ const Introduction = () => {
           </p>
         </div>
       </div>
-      <div className="text-white text-[14px] md:text-[20px] font-normal text-center max-w-[1300px] mx-auto">
+      <div className="text-white px-6 text-[14px] md:text-[20px] font-normal text-center max-w-[1300px] mx-auto">
         <p className="font-semibold text-[20px]">
           Dondon global is rich in Omega-3 Fatty Acids: The Healthy Fats Your
           Body Needs
@@ -50,7 +50,7 @@ const Introduction = () => {
           Experience the incredible benefits of DON-DON SOYA BEANS for yourself.
           Try it today and discover a healthier, happier you
         </p>
-        <button className="uppercase hover:scale-[1.1] duration-500 bg-black py-[12px] px-[16px] w-[205px] rounded-[99px] font-semibold text-white ">
+        <button className="uppercase hover:scale-[1.1] shadow-2xl duration-500 bg-black py-[12px] px-[16px] w-[205px] rounded-[99px] font-semibold text-white ">
           Learn More
         </button>
       </div>
