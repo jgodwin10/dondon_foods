@@ -7,18 +7,20 @@ import Vendor from "../Components/Vendor";
 import Quality from "../Components/Quality";
 import NAFDAC from "../Components/NAFDAC";
 import Payment from "../Components/Payment";
+import Footer from "../Components/Footer";
 
 const HomePage = () => {
   return (
     <div>
       <Navbar />
-      <Hero  />
+      <Hero />
       <Introduction />
       <Promo />
       <Vendor />
       <Quality />
       <NAFDAC />
       <Payment />
+      <Footer />
     </div>
   );
 };
