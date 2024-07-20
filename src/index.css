@@ -9,7 +9,7 @@ body {
   font-family: "Josefin Sans", sans-serif;
 }
 
-li {
+ul li {
   cursor: pointer;
 }
 
@@ -26,6 +26,11 @@ h1 {
 
 .hero {
   animation: change 3s linear;
+}
+
+ul li:hover {
+  color: #fab919;
+  transition-duration: 0.8s;
 }
 
 @keyframes change {
