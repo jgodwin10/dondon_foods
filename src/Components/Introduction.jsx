@@ -52,7 +52,7 @@ const Introduction = () => {
           rich for adults.
         </p>
         <img
-          className=" px-8 max-w-[1200px] border-[#fab919] object-cover border-8 my-8 md:px-0 mx-auto hero rounded-[50px]"
+          className=" md:max-w-[1200px] border-[#fab919] object-cover border-8 my-8 md:px-0 md:mx-auto hero rounded-[50px]"
           src={Intros}
           alt=""
         />

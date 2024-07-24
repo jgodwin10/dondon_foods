@@ -22,13 +22,13 @@ const Vendor = () => {
           </p>
         </div>
         <video
-          className="w-[1200px] h-[800px] object-cover border-[#fab919] border-[10px]  px-6 md:px-0 mx-auto hero rounded-[50px]"
+          className="md:w-[1200px] md:h-[800px] w-full h-[400px] object-cover border-[#fab919] border-[10px] md:px-0 mx-auto hero rounded-[50px]"
           src={Intro}
           autoPlay
           controls
         ></video>
         <video
-          className="w-[1200px] h-[800px] mt-6 object-cover border-[#fab919] border-[10px]  px-6 md:px-0 mx-auto hero rounded-[50px]"
+          className="md:w-[1200px] md:h-[800px] mt-6 object-cover border-[#fab919] border-[10px] w-full h-[400px] md:px-0 md:mx-auto hero rounded-[50px]"
           autoPlay
           controls
           src={Second}

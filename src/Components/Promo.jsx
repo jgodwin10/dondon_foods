@@ -3,10 +3,10 @@ import Intro from "../../public/Foot.jpg";
 
 const Promo = () => {
   return (
-    <div id="promo" className="bg-[#ac4d49] md:px-8 py-6">
+    <div id="promo" className="bg-[#ac4d49] px-8 py-6">
       <div className="max-w-[1300px] grid lg:grid-cols-2 mx-auto">
         <img
-          className="md:max-w-[700px] border-[#fab919] object-cover border-[10px] lg:max-w-full px-8 md:px-0 mx-auto hero rounded-[50px]"
+          className="md:max-w-[700px] border-[#fab919] object-cover border-[10px] lg:max-w-full md:px-0 mx-auto hero rounded-[50px]"
           src={Intro}
           alt=""
         />

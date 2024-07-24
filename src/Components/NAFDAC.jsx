@@ -3,10 +3,10 @@ import Intro from "../../public/Nafdac.jpg";
 
 const NAFDAC = () => {
   return (
-    <div id="nafdac" className="bg-[#bc1823] pb-16 ">
+    <div id="nafdac" className="bg-[#bc1823] px-8 pb-16 ">
       <div className="max-w-[1300px] py-16 grid lg:grid-cols-2 mx-auto">
         <img
-          className="md:max-w-[700px] border-[#fab919] object-cover border-8 lg:max-w-full px-8 md:px-0 mx-auto hero rounded-[50px]"
+          className="md:max-w-[700px] w-full border-[#fab919] object-cover border-8 lg:max-w-full  md:mx-auto hero rounded-[50px]"
           src={Intro}
           alt=""
         />
