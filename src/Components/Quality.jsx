@@ -1,18 +1,26 @@
 import React from "react";
-import Intro from "../../public/Intro.jpg";
+import Intro from "../../public/ano.mp4";
+import Second from "../../public/second.mp4";
 
 const Quality = () => {
   return (
     <div id="quality" className="bg-[#fab919] px-6 md:px-8">
-      <div className="max-w-[1300px] pb-10 grid lg:grid-cols-2 mx-auto">
+      <div className="max-w-[1300px] pb-10 mx-auto">
         <h3 className="md:text-[66px] text-[30px] pb-10 text-center pt-12 md:pt-28 capitalize font-semibold">
           our products are Carefully ​produced
         </h3>
-        <img
-          className="md:max-w-[700px] lg:max-w-full  px-6 md:px-0 mx-auto hero rounded-lg"
+        <video
+          className="w-[1200px] h-[800px] object-cover border-[#bc1823] border-[10px]  px-6 md:px-0 mx-auto hero rounded-[50px]"
           src={Intro}
-          alt=""
-        />
+          autoPlay
+          controls
+        ></video>
+        <video
+          className="w-[1200px] h-[800px] mt-6 object-cover border-[#fab919] border-[10px]  px-6 md:px-0 mx-auto hero rounded-[50px]"
+          autoPlay
+          controls
+          src={Second}
+        ></video>
       </div>
     </div>
   );

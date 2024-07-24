@@ -1,12 +1,12 @@
 import React from "react";
-import Intro from "../../public/Intro.jpg";
+import Intro from "../../public/Foot.jpg";
 
 const Promo = () => {
   return (
     <div id="promo" className="bg-[#ac4d49] md:px-8 py-6">
       <div className="max-w-[1300px] grid lg:grid-cols-2 mx-auto">
         <img
-          className="md:max-w-[700px] lg:max-w-full px-8 md:px-0 mx-auto hero rounded-lg"
+          className="md:max-w-[700px] border-[#fab919] object-cover border-[10px] lg:max-w-full px-8 md:px-0 mx-auto hero rounded-[50px]"
           src={Intro}
           alt=""
         />
@@ -25,9 +25,17 @@ const Promo = () => {
           <p className="md:text-[24px] py-8 text-[20px]">
             Stock up and enjoy the savings!"
           </p>
-          <button className="uppercase hover:scale-[1.1] shadow-2xl duration-500 bg-black py-[12px] px-[16px] w-[205px] rounded-[99px] font-semibold text-white ">
-            Order Now
-          </button>
+          <div className="flex justify-center items-center w-full">
+            {/* <button className="uppercase hover:scale-[1.1] shadow-2xl duration-500 bg-black py-[12px] px-[16px] w-[205px] rounded-[99px] font-semibold text-white ">
+              Order Now
+            </button> */}
+            <a
+              href="https://wa.me/+2349034237629"
+              className="uppercase hover:scale-[1.1] text-center button duration-500 shadow-2xl bg-black py-[12px] px-[16px] w-[175px] h-[48px] rounded-[99px] font-semibold text-white "
+            >
+              Order Now
+            </a>
+          </div>
         </div>
       </div>
     </div>

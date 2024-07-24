@@ -17,9 +17,14 @@ const Hero = () => {
             <p className="para text-xl md:text-2xl py-3 pb-6">
               NUTRITIONAL POWERHOUSE !
             </p>
-            <button className="uppercase hover:scale-[1.1] duration-500 shadow-2xl bg-[#bc1823] py-[12px] px-[16px] w-[175px] h-[48px] rounded-[99px] font-semibold text-white ">
-              Order Now
-            </button>
+            <div className="w-full">
+              <a
+                href="https://wa.me/+2349034237629"
+                className="uppercase hover:scale-[1.1] duration-500 shadow-2xl bg-[#bc1823] py-[12px] px-[16px] w-[175px] h-[48px] rounded-[99px] font-semibold text-white "
+              >
+                Order Now
+              </a>
+            </div>
           </div>
         </div>
         <div className="sm:max-w-[600px] image mx-auto pt-9 lg:pt-0">

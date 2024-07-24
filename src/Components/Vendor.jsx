@@ -1,33 +1,41 @@
 import React from "react";
-import Intro from "../../public/Intro.jpg";
+import Intro from "../../public/vendor.mp4";
+import Second from "../../public/second.mp4";
 
 const Vendor = () => {
   return (
     <div id="vendor" className="bg-[#bc1823] pb-16 px-6 md:px-8">
-      <div className="max-w-[1300px] py-16 grid lg:grid-cols-2 mx-auto">
-        <img
-          className="md:max-w-[700px] lg:max-w-full px-6 md:px-0 mx-auto hero rounded-lg"
-          src={Intro}
-          alt=""
-        />
-        <div className="flex flex-col pt-10 md:px-16 pb-6 text-center text-white justify-end items-center">
-          <h2 className="md:text-[66px] text-[30px] pb-10 font-semibold">
+      <div className="max-w-[1300px] py-10 mx-auto">
+        <div className="flex flex-col pt-10 md:px-16 pb-6 font-bold text-center text-white justify-end items-center">
+          <h2 className="md:text-[66px] text-[30px] pb-6 font-bold">
             Distributors ​needed Nationwide
           </h2>
           <p className="md:text-[25px] text-[20px] pb-2">
             Join the DON-DON SOYA BEANS Revolution ​!
           </p>
-          <p className="md:text-[20px] text-[14px]">
+          <p className="md:text-[22px] text-[18px]">
             Become a Part of Nigeria's Fastest-Growing ​Health Food Network !
           </p>
-          <p className="md:text-[20px] text-[14px]">
+          <p className="md:text-[22px] text-[18px]">
             We're expanding our reach and seeking ​passionate and driven
             distributors to join ​our team across all 36 states of Nigeria !
           </p>
         </div>
+        <video
+          className="w-[1200px] h-[800px] object-cover border-[#fab919] border-[10px]  px-6 md:px-0 mx-auto hero rounded-[50px]"
+          src={Intro}
+          autoPlay
+          controls
+        ></video>
+        <video
+          className="w-[1200px] h-[800px] mt-6 object-cover border-[#fab919] border-[10px]  px-6 md:px-0 mx-auto hero rounded-[50px]"
+          autoPlay
+          controls
+          src={Second}
+        ></video>
       </div>
-      <div className="text-white text-[14px] md:text-[20px] font-normal text-center max-w-[1300px] mx-auto">
-        <p className="font-semibold text-[20px]">
+      <div className="text-white text-[20px] md:text-[25px] font-bold text-center max-w-[1300px] mx-auto">
+        <p className="font-bold">
           Be at the Forefront of the Healthy Living Movement!
         </p>
         <p className="lg:w-[70%] text-center mx-auto py-4">
@@ -37,7 +45,7 @@ const Vendor = () => {
           dedicated individuals to help us share this gift with every corner of
           Nigeria.
         </p>
-        <p className="font-semibold text-[18px] md:text-[22px] py-4">
+        <p className="font-bold  py-4">
           Benefits of Becoming a DON-DON SOYA BEANS Distributor:
         </p>
 
@@ -47,7 +55,7 @@ const Vendor = () => {
         <p>- Tap into a vast and growing market demand</p>
         <p>- Make a real difference in people's lives!</p>
 
-        <p className="font-semibold text-[18px] md:text-[22px] pt-6 pb-3">
+        <p className="font-bold  pt-6 pb-3">
           If you're:
         </p>
 
@@ -67,7 +75,7 @@ const Vendor = () => {
           Contact us to learn more and take the first step towards a rewarding
           partnership!
         </p>
-        <button className="uppercase hover:scale-[1.1] duration-500 shadow-2xl bg-black py-[12px] px-[16px] w-[205px] rounded-[99px] font-semibold text-white ">
+        <button className="uppercase hover:scale-[1.1] md:text-base text-[14px] duration-500 shadow-2xl bg-black py-[12px] px-[16px] w-[205px] rounded-[99px] font-semibold text-white ">
           Learn More
         </button>
       </div>

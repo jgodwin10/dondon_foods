@@ -47,6 +47,10 @@ ul li:hover {
   animation: image 3s linear;
 }
 
+.button:hover {
+  transform: scaleX(1.1);
+}
+
 img:hover {
   transition-duration: 0.5s;
   transform: scale(1.05);

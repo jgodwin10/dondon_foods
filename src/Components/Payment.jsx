@@ -14,8 +14,8 @@ const Payment = () => {
         We have various payment options to suit your needs
       </p>
 
-      <div className="md:flex lg:w-[500px] grid items-center gap-5 justify-between">
-        <div className="bg-neutral-50 w-[80vw] md:w-full flex items-center gap-8 justify-start py-3 px-4 rounded-lg">
+      <div className="md:grid-cols-3 grid-cols-1 grid items-center gap-5 justify-between">
+        <div className="bg-neutral-50 w-[80vw] md:w-fit flex items-center gap-8 justify-start py-3 px-4 rounded-lg">
           <img className="size-20 md:mx-auto" src={Card} alt="" />
           <p className="pt-3 md:text-base text-[14px]">Card Payment</p>
         </div>
