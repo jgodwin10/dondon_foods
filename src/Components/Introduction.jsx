@@ -1,13 +1,16 @@
 import React from "react";
-import Intro from "../../public/Intro.jpg";
+import Intro from "../../public/hero.jpg";
 import Intros from "../../public/intros.jpg";
+import { useNavigate } from "react-router-dom";
 
 const Introduction = () => {
+  const navigate = useNavigate();
+
   return (
-    <div id="intro" className="bg-[#bc1823] pb-16 ">
+    <div id="intro" className="bg-[#bc1823] px-8 pb-16 ">
       <div className="max-w-[1300px] py-16 grid lg:grid-cols-2 mx-auto">
         <img
-          className="md:max-w-[700px] lg:max-w-full px-8 md:px-0 mx-auto hero rounded-lg"
+          className="md:max-w-[700px] border-[#fab919] object-cover border-8 lg:max-w-full hero rounded-[50px]"
           src={Intro}
           alt=""
         />
@@ -52,12 +55,15 @@ const Introduction = () => {
           rich for adults.
         </p>
         <img
-          className=" md:max-w-[1200px] border-[#fab919] object-cover border-8 my-8 md:px-0 md:mx-auto hero rounded-[50px]"
+          className=" border-[#fab919] object-cover border-8 my-8 md:px-0 md:mx-auto hero rounded-[50px]"
           src={Intros}
           alt=""
         />
         <div className="flex justify-center items-center w-full">
-          <button className="uppercase hover:scale-[1.1] shadow-2xl duration-500 bg-black py-[12px] px-[16px] w-[205px] rounded-[99px] font-semibold text-white ">
+          <button
+            onClick={() => navigate("/learn-more")}
+            className="uppercase hover:scale-[1.1] shadow-2xl duration-500 bg-black py-[12px] px-[16px] w-[205px] rounded-[99px] font-semibold text-white "
+          >
             Learn More
           </button>
         </div>

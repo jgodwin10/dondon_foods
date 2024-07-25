@@ -6,6 +6,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 /** Pages Import */
 import HomePage from "./Pages/HomePage.jsx";
+import Post from "./Pages/Post.jsx";
 
 const router = createBrowserRouter([
   {
@@ -15,6 +16,10 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <HomePage />,
+      },
+      {
+        path: "/learn-more",
+        element: <Post />,
       },
     ],
   },

@@ -1,8 +1,11 @@
 import React from "react";
 import Intro from "../../public/vendor.mp4";
 import Second from "../../public/second.mp4";
+import { useNavigate } from "react-router-dom";
 
 const Vendor = () => {
+  const navigate = useNavigate();
+
   return (
     <div id="vendor" className="bg-[#bc1823] pb-16 px-6 md:px-8">
       <div className="max-w-[1300px] py-10 mx-auto">
@@ -55,9 +58,7 @@ const Vendor = () => {
         <p>- Tap into a vast and growing market demand</p>
         <p>- Make a real difference in people's lives!</p>
 
-        <p className="font-bold  pt-6 pb-3">
-          If you're:
-        </p>
+        <p className="font-bold  pt-6 pb-3">If you're:</p>
 
         <p>- A motivated entrepreneur looking for a new opportunity</p>
         <p>
@@ -75,7 +76,10 @@ const Vendor = () => {
           Contact us to learn more and take the first step towards a rewarding
           partnership!
         </p>
-        <button className="uppercase hover:scale-[1.1] md:text-base text-[14px] duration-500 shadow-2xl bg-black py-[12px] px-[16px] w-[205px] rounded-[99px] font-semibold text-white ">
+        <button
+          onClick={() => navigate("/learn-more")}
+          className="uppercase hover:scale-[1.1] md:text-base text-[14px] duration-500 shadow-2xl bg-black py-[12px] px-[16px] w-[205px] rounded-[99px] font-semibold text-white "
+        >
           Learn More
         </button>
       </div>
