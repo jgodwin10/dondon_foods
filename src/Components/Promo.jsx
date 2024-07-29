@@ -3,14 +3,14 @@ import Intro from "../../public/Foot.jpg";
 
 const Promo = () => {
   return (
-    <div id="promo" className="bg-[#ac4d49] px-8 py-6">
+    <div id="promo" className="bg-[#ac4d49] px-6 py-6">
       <div className="max-w-[1300px] grid lg:grid-cols-2 mx-auto">
         <img
           className="md:max-w-[700px] border-[#fab919] object-cover border-[10px] lg:max-w-full md:px-0 mx-auto hero rounded-[50px]"
           src={Intro}
           alt=""
         />
-        <div className="promo flex flex-col pt-10 px-6 md:px-16 pb-6 text-white justify-center items-start">
+        <div className="promo flex flex-col pt-10 md:px-16 pb-6 text-white justify-center items-start">
           <h3 className="font-semibold text-[25px] md:text-[60px]">
             Promo ! Promo !
           </h3>

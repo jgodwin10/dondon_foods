@@ -7,14 +7,14 @@ const Introduction = () => {
   const navigate = useNavigate();
 
   return (
-    <div id="intro" className="bg-[#bc1823] px-8 pb-16 ">
+    <div id="intro" className="bg-[#bc1823] px-6 pb-16 ">
       <div className="max-w-[1300px] py-16 grid lg:grid-cols-2 mx-auto">
         <img
           className="md:max-w-[700px] border-[#fab919] object-cover border-8 lg:max-w-full hero rounded-[50px]"
           src={Intro}
           alt=""
         />
-        <div className="flex flex-col pt-10 px-6 md:px-16 pb-6 text-center text-white justify-end items-center">
+        <div className="flex flex-col pt-10  md:px-16 pb-6 text-center text-white justify-end items-center">
           <h2 className="md:text-[66px] text-[30px] pb-10 font-semibold">
             Introducing
           </h2>
@@ -28,7 +28,7 @@ const Introduction = () => {
           </p>
         </div>
       </div>
-      <div className="text-white px-6 text-[18px] md:text-[24px] font-bold">
+      <div className="text-white text-[18px] md:text-[24px] font-bold">
         <p className="">
           Dondon global is rich in Omega-3 Fatty Acids: The Healthy Fats Your
           Body Needs

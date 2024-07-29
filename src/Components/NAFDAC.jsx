@@ -3,14 +3,14 @@ import Intro from "../../public/Nafdac.jpg";
 
 const NAFDAC = () => {
   return (
-    <div id="nafdac" className="bg-[#bc1823] px-8 pb-16 ">
+    <div id="nafdac" className="bg-[#bc1823] px-6 pb-16 ">
       <div className="max-w-[1300px] py-16 grid lg:grid-cols-2 mx-auto">
         <img
           className="md:max-w-[700px] w-full border-[#fab919] object-cover border-8 lg:max-w-full  md:mx-auto hero rounded-[50px]"
           src={Intro}
           alt=""
         />
-        <div className="flex flex-col pt-10 px-6 md:px-16 pb-6 text-center text-white justify-end items-center">
+        <div className="flex flex-col pt-10 md:px-16 pb-6 text-center text-white justify-end items-center">
           <h2 className="md:text-[66px] text-[30px] pb-10 font-semibold">
             NAFDAC APPROVED
           </h2>
@@ -26,7 +26,7 @@ const NAFDAC = () => {
           </p>
         </div>
       </div>
-      <div className="text-white px-6 text-[18px] md:text-[24px] font-bold text-center max-w-[1300px] mx-auto">
+      <div className="text-white  text-[18px] md:text-[24px] font-bold text-center max-w-[1300px] mx-auto">
         <p className="text-[#eee] text-center mx-auto py-4">
           NAFDAC approval is a seal of quality and safety from the Nigerian
           government agency responsible for regulating food, drugs, and
