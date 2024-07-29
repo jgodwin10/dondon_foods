@@ -1,5 +1,5 @@
 import React from "react";
-import Intro from "../../public/Foot.jpg";
+import Intro from "../Images/Foot.jpg";
 
 const Promo = () => {
   return (

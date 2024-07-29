@@ -1,5 +1,5 @@
 import React from "react";
-import Intro from "../../public/Nafdac.jpg";
+import Intro from "../Images/Nafdac.jpg";
 
 const NAFDAC = () => {
   return (

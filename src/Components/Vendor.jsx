@@ -1,6 +1,6 @@
 import React from "react";
-import Intro from "../../public/vendor.mp4";
-import Second from "../../public/second.mp4";
+import Intro from "../Images/vendor.mp4";
+import Second from "../Images/second.mp4";
 import { useNavigate } from "react-router-dom";
 
 const Vendor = () => {
@@ -43,7 +43,7 @@ const Vendor = () => {
           By partnering with us, you'll be part of a dynamic network that's
           changing lives with the power of DON-DON SOYA BEANS. Our product has
           been proven to transform health and wellbeing, and we're looking for
-          dedicated individuals to help us share this gift with every corner of
+          dedicated individuals to help us share this gift in every corner of
           Nigeria.
         </p>
         <p className="font-bold  py-4">

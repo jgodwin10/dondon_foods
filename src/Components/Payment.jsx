@@ -1,7 +1,7 @@
 import React from "react";
-import Card from "../../public/card-1.png";
-import Ussd from "../../public/ussd.png";
-import Bank from "../../public/bank.png";
+import Card from "../Images/card-1.png";
+import Ussd from "../Images/ussd.png";
+import Bank from "../Images/bank.png";
 
 const Payment = () => {
   return (

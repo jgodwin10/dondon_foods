@@ -1,6 +1,6 @@
 import React from "react";
-import Intro from "../../public/hero.jpg";
-import Intros from "../../public/intros.jpg";
+import Intro from "../Images/hero.jpg";
+import Intros from "../Images/intros.jpg";
 import { useNavigate } from "react-router-dom";
 
 const Introduction = () => {

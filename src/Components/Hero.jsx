@@ -1,6 +1,6 @@
 import React from "react";
-import HeroImg from "../../public/hero.svg";
-import Boy from "../../public/Boy.jpg";
+import HeroImg from "../Images/hero.svg";
+import Boy from "../Images/Boy.jpg";
 
 const Hero = () => {
   return (

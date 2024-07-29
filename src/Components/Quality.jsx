@@ -1,6 +1,6 @@
 import React from "react";
-import Intro from "../../public/ano.mp4";
-import Second from "../../public/second.mp4";
+import Intro from "../Images/Videos2.mp4";
+import Second from "../Images/second.mp4";
 
 const Quality = () => {
   return (
