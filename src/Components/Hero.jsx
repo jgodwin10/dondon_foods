@@ -12,7 +12,7 @@ const Hero = () => {
           </div>
           <div className="hero">
             <h1 className="flex text-[10vw] lg:text-[6vw] xl:text-[4vw] md:pl-7 font-medium flex-col items-center">
-              DonDon global <span className="pt-2">​Foods</span>
+              DON-DON global <span className="pt-2">​Foods</span>
             </h1>
             <p className="para text-xl md:text-2xl py-3 pb-6">
               NUTRITIONAL POWERHOUSE !
